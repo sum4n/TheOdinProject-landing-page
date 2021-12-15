@@ -1,27 +1,42 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0px 128px;
+    /* padding: 0px 128px; */
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
-header p {
+header .logo {
+    color: #F9FAF8;
     font-weight: bold;
+    font-size: 24px;
+    margin: 0px;    
+}
+
+header,
+.content1,
+footer {
+    background-color: #1F2937;
 }
 
 ul {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .content1 {
@@ -29,10 +44,31 @@ a {
     justify-content: space-between;
 }
 
+.content1 h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.content1 p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button,
+.content4 {
+    background-color: #388fF6;
+    color: white;
+}
+
 .content2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.content2 .info-heading {
+    font-size: 36px;
+    font-weight: 800;
 }
 
 .random-pics {
@@ -45,6 +81,11 @@ a {
 .content3 {
     display: flex;
     flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 .author {
     align-self: flex-end;
