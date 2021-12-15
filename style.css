@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 240px;
 }
 
 header .logo {
@@ -42,22 +42,42 @@ a {
 .content1 {
     display: flex;
     justify-content: space-between;
+    padding: 128px 240px;
 }
 
 .content1 h1 {
     font-size: 48px;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .content1 p {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0px;
+    text-align:start;
+    padding-bottom: 8px;
+}
+
+.content1 .content1-left {
+    margin-right: 48px;
+    padding-right: 58px;
+}
+
+.content1 img {
+    width: 800px;
+    height: 300px;
 }
 
 button,
 .content4 {
     background-color: #388fF6;
     color: white;
+    border: none;
+    text-align: center;
+    padding: 8px 32px;
+    border-radius: 8px;
+    font-weight: bold;
 }
 
 .content2 {
