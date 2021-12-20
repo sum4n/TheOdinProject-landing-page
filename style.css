@@ -69,8 +69,7 @@ a {
     height: 300px;
 }
 
-button,
-.content4 {
+.content1 button {
     background-color: #388fF6;
     color: white;
     border: none;
@@ -84,6 +83,7 @@ button,
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
 }
 
 .content2 .info-heading {
@@ -95,27 +95,60 @@ button,
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 16px;
+    gap: 56px;
+    align-items: center;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+.random-pics img{
+    border-radius: 20px;
+    border: 4px solid #388fF6;
 }
 
 .content3 {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     background-color: #E5E7EB;
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     color: #1F2937;
+    padding: 5% 25% 1%;
 }
 .author {
-    align-self: flex-end;
+    text-align: end;
+    /* padding: 0px; */
 }
 
 .content4 {
+    background-color: #388fF6;
     display: flex;
     justify-content: space-between;
+    margin: 5% 15%;
+    padding: 2% 5%;
+    border-radius: 8px;
+    color: white;
+}
+
+.content4 .action-time {
+    font-weight: bold;
+}
+
+.content4 button {
+    background-color: #388fF6;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 8px;
+    align-self: center;
+    padding: 8px 32px;
+
 }
 
 footer {
     text-align: center;
+    color: white;
+    padding: 2% 0px;
 }
