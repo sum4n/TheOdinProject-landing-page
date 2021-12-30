@@ -1,6 +1,6 @@
 # the-odin-project-landing-page
 Landing Page project from The Odin Project
-https://sum4n.github.io/the-odin-project-landing-page/
+https://sum4n.github.io/TheOdinProject-landing-page/
 
 Image credits:
 
